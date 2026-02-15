@@ -77,7 +77,7 @@ Examples:
 
 ### 1) Compile
 ```bash
-g++ -std=c++17 server.cpp Parcare.cpp -o server
-g++ -std=c++17 client.cpp -o client
-g++ -std=c++17 senzor.cpp Parcare.cpp -o senzor
-g++ -std=c++17 camera.cpp Parcare.cpp -o camera
+g++ server.cpp Parcare.cpp -o server
+g++ client.cpp -o client
+g++ senzor.cpp Parcare.cpp -o senzor
+g++ camera.cpp Parcare.cpp -o camera
